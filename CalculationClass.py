@@ -3,50 +3,50 @@ import math
 class Calculation():
     
 
-    def sum():
+    def sum(self):
         num1 = input("What is the first number of your addition : ")
         num2 = input("What is the second number of your addition : ")
-        return num1 + num2
+        print(num1 + num2)
     
-    def sus():
+    def sus(self):
         num1 = input("What is the first number of your sustraction : ")
         num2 = input("What is the second number of your sustraction : ")
-        return num1 - num2
+        print(num1 - num2)
     
-    def multiply():
+    def multiply(self):
         num1 = input("What is the first number of your multiplication : ")
         num2 = input("What is the second number of your multiplication : ")
-        return num1 * num2
+        print(num1 * num2)
     
-    def divide():
+    def divide(self):
         num1 = input("What is the first number of your division : ")
         num2 = input("What is the second number of your division : ")
-        return num1 - num2
+        print(num1 / num2)
 
-    def exponent():
+    def exponent(self):
         num1 = input(" what is the base of your exponent : ")
         num2 = input("what is the the exponential : ")
-        return num1 ** num2
+        print(num1 ** num2)
     
-    def square_root():
+    def square_root(self):
         num = input("What is the number that you want the square root of : ")
-        return math.sqrt(num)
+        print(math.sqrt(num))
 
-    def sinus():
+    def sinus(self):
         num = input("What is the number that you want to perfect the sin function on : ")
-        return math.sin(num)
+        print(math.sin(num))
     
-    def cosinus():
+    def cosinus(self):
         num = input("What is the number that you want to perfect the cosin function on : ")
-        return math.cos(num)
+        print(math.cos(num))
 
-    def tangent():
+    def tangent(self):
         num = input("What is the number that you want to perfect the tan function on : ")
-        return math.tan(num)
+        print(math.tan(num))
 
-    def log():
+    def log(self):
         base = input("Enter your log base : ")
         argument = input("enter your log argument here : ")
-        return math.log(argument, base)
+        print(math.log(argument, base))
     
         
